@@ -1,0 +1,16 @@
+https://zakupki.gov.ru/epz/organization/chooseOrganization/chooseOrganizationTableModal.html?searchString={search_string}&inputId=customer&page=1&pageSize=10&organizationType=ALL&placeOfSearch=FZ_44,FZ_223&isBm25Search=true
+
+customerIdOrg=151165%3AФЕДЕРАЛЬНОЕ+ГОСУДАРСТВЕННОЕ+БЮДЖЕТНОЕ+УЧРЕЖДЕНИЕ+%26quot%3BВСЕРОССИЙСКИЙ+ЦЕНТР+ГЛАЗНОЙ+И+ПЛАСТИЧЕСКОЙ+ХИРУРГИИ%26quot%3B+МИНИСТЕРСТВА+ЗДРАВООХРАНЕНИЯ+РОССИЙСКОЙ+ФЕДЕРАЦИИzZ03011000028zZ727322zZ78129zZ0277012824zZ
+customerIdOrg={org_id}%3A{org_name}zZ{data_code}zZ{fz94id}zZ{78129}zZ{inn}zZ
+
+<input type="checkbox" class="not-hierarchical-list__item-checkbox"
+                                               onclick="customer_add_checked(this);"
+                                               data-id="151165"
+                                               data-code="03011000028"
+                                               data-name="ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ "ВСЕРОССИЙСКИЙ ЦЕНТР ГЛАЗНОЙ И ПЛАСТИЧЕСКОЙ ХИРУРГИИ" МИНИСТЕРСТВА ЗДРАВООХРАНЕНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ"
+                                               data-fz94id="727322"
+                                               data-fz223id="78129"
+                                               data-inn="0277012824"
+                                               data-draftId=""
+                                               value="151165"
+                                               id="modalTableTemp151165">
