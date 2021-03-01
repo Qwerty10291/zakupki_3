@@ -1,11 +1,8 @@
-import lxml.html
-from lxml import etree
-import re
-doc = lxml.html.document_fromstring(open('test.html', 'r').read())
-print(doc.xpath('//input')[0].text_content())
-text = etree.tostring(doc.xpath('//input')[0], pretty_print=True, encoding='unicode')
+from os import link
 
-name = re.findall(r'data\-name=\"(.*?)\sdata', text)
-print(name[0])
 
-print(''.join(map(lambda x: chr(int(x.replace('&#x', ''), 16)), name[0].split(';')[:-1])))
+links = list(map(lambda x: x.replace('\n', ''), open('links copy.txt', 'r').readlines()))
+tags = ['технолог', 'информа']
+for i in links:
+    for tag in tags:
+        print(i.format(tag))
