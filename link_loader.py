@@ -5,7 +5,7 @@ driver = webdriver.Chrome()
 links = ''
 
 
-names = list(map(lambda x: x.replace('\n', ''), open('name.txt', 'r', encoding='utf-8').readlines()))
+names = list(map(lambda x: x.replace('\n', ''), open('name1.txt', 'r', encoding='utf-8').readlines()))
 for i in names:
     try:
         driver.get('https://zakupki.gov.ru/epz/order/extendedsearch/search.html')
@@ -29,4 +29,4 @@ for i in names:
         print(i)
     time.sleep(1)
 
-print(links, file=open('links.txt', 'w'))
+print(links, file=open('links2.txt', 'w'))
